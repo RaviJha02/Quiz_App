@@ -1,0 +1,43 @@
+.login{
+    display: flex;
+    width: 40%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:10px;
+    background-color: cadetblue;
+    padding: 30px 0px;
+   
+  
+  }
+  .logincon{
+    width: 100%;
+    height: 100vh;
+    background-color: bisque;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .login input{
+    width: 80%;
+    height: 40px;
+    border: none;
+    border-bottom: 2px solid orangered;
+  }
+  .login button{
+    padding: 5px 20px;
+    font-size: 15px;
+  }
+  .login a{
+    text-decoration: none;
+    color: blue;
+  
+  }
+  .login a:hover{
+    text-decoration: underline;
+    color: rgb(224, 15, 81);
+    
+  }
+  .input input[type="checkbox"]{
+    accent-color: green;
+  }
